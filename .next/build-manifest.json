@@ -1,8 +1,6 @@
 {
   "devFiles": [
-    "static/runtime/react-refresh.js",
-    "static/development/dll/dll_f9de5cbc314a1e41f91e.js",
-    "static/development/dll/dll_f9de5cbc314a1e41f91e.js.map"
+    "static/runtime/react-refresh.js"
   ],
   "lowPriorityFiles": [
     "static/development/_buildManifest.js",
