@@ -1,4 +1,3 @@
-
 {
   "name": "movie",
   "version": "1.0.0",
@@ -15,9 +14,9 @@
   "license": "ISC",
   "dependencies": {
     "@rebass/forms": "^4.0.6",
-    "next": "^9.4.4",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "next": "^9.5.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "rebass": "^4.0.7"
   }
 }
