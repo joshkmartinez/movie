@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box, Flex, Text } from "rebass";
 import { Label, Input } from "@rebass/forms";
-export default () => {
+const index = () => {
   const [ID, setID] = useState();
   const [season, setSeason] = useState();
   const [episode, setEpisode] = useState();
@@ -27,6 +27,13 @@ export default () => {
 
   return (
     <Box width={1}>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+      ></link>{" "}
+      <Text textAlign="center">
+        <b>The use of an adblocker is highly recommended.</b>
+      </Text>
       <Flex justifyContent="center">
         <Box m={1}>
           <Label htmlFor="IMDB ID">IMDB ID</Label>
@@ -39,8 +46,7 @@ export default () => {
         </Box>
         <Box m={1}>
           <Label htmlFor="IMDB ID">
-            The use of an adblocker is recommended. Leave these fields empty if
-            you are watching a movie.
+            Leave these fields empty if you are watching a movie.
           </Label>
           <Flex>
             <Flex mr={1}>
@@ -100,3 +106,5 @@ export default () => {
     </Box>
   );
 };
+
+export default index;
