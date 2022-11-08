@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@rebass/forms": "^4.0.6",
-    "next": "^9.5.5",
+    "next": "^13.0.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "rebass": "^4.0.7"
